@@ -1,0 +1,19 @@
+<div class="mx-auto" style="padding-top: 25px;">
+    <div class="text-black">
+      <h1 class="mb-3 text-center heading">Hello! You've reached the webpage of Dhruv Arora</h1>
+      <h4 class="mb-3 text-center data">I hate being taken pictures of, so no photos of me (: but ...<br>
+         you can enjoy some of the photographs I've clicked :</h4>
+      <a class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
+    </div>
+  </div>
+
+<div class="mx-auto" style="padding-bottom: 15px; max-width: 900px;">
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+    <mdb-carousel-item *ngFor="let i of indices">
+        <div class="view w-100">
+            <img class="d-block w-100" src="../../assets/carousel/{{i}}.jpeg">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+</div>
