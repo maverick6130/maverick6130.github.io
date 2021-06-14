@@ -1,32 +1,40 @@
+<div class="content">
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" routerLink="/" style="font-family: 'Dancing Script', cursive;"><i class="fas fa-home"></i> Dhruv</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <a class="nav-link" routerLink="/about"><i class="fas fa-portrait"></i> About</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <a class="nav-link" routerLink="/projects"><i class="fas fa-project-diagram"></i> Projects</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <a class="nav-link" routerLink="/teachings"><i class="fas fa-chalkboard-teacher"></i> Teachings</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <a class="nav-link" href="../assets/190050034 .pdf" target="_blank"><i class="fas fa-file"></i> Resume</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <a class="nav-link" routerLink="/interests"><i class="far fa-thumbs-up"></i> Interests</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark black" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand heading" routerLink="/"><i class="fas fa-home"></i> Dhruv</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="/about"><i class="fas fa-portrait"></i> About</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="/projects"><i class="fas fa-project-diagram"></i> Projects</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="/teachings"><i class="fas fa-chalkboard-teacher"></i> Teachings</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link waves-light" mdbWavesEffect href="../assets/190050034 .pdf" target="_blank"><i class="fas fa-file"></i> Resume</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="/interests"><i class="far fa-thumbs-up"></i> Interests</a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
 </header>
 
-<div class="content">
 <router-outlet></router-outlet>
 </div>
 
