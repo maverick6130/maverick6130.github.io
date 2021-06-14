@@ -818,7 +818,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h5", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "I hate being taken pictures of, so no photos of me (: but ...");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "There's no photographs of me (: but ...");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
 
