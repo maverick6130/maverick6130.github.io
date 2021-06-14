@@ -410,7 +410,7 @@
         _createClass(_AppComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            this.ngxFavicon.setFavicon("../assets/dark.ico", "../assets/light.ico");
+            this.ngxFavicon.setFavicon("./assets/dark.ico", "./assets/light.ico");
           }
         }]);
 
@@ -426,7 +426,7 @@
         selectors: [["app-root"]],
         decls: 41,
         vars: 11,
-        consts: [[1, "content"], ["SideClass", "navbar navbar-expand-lg navbar-dark black", 3, "containerInside"], ["routerLink", "/", 1, "navbar-brand", "heading"], [1, "fas", "fa-home"], [1, "navbar-nav", "ml-auto"], ["routerLinkActive", "active", 1, "nav-item", 3, "routerLinkActiveOptions"], ["mdbWavesEffect", "", "routerLink", "/about", 1, "nav-link", "waves-light"], [1, "fas", "fa-portrait"], ["mdbWavesEffect", "", "routerLink", "/projects", 1, "nav-link", "waves-light"], [1, "fas", "fa-project-diagram"], ["mdbWavesEffect", "", "routerLink", "/teachings", 1, "nav-link", "waves-light"], [1, "fas", "fa-chalkboard-teacher"], ["mdbWavesEffect", "", "href", "../assets/190050034 .pdf", "target", "_blank", 1, "nav-link", "waves-light"], [1, "fas", "fa-file"], ["mdbWavesEffect", "", "routerLink", "/interests", 1, "nav-link", "waves-light"], [1, "far", "fa-thumbs-up"], [1, "bg-dark", "text-center", "text-white"], [1, "container", "p-4", "pb-0"], [1, "mb-4"], ["href", "https://www.linkedin.com/in/dhruv-arora-0931371ba/", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-linkedin-in"], ["href", "https://github.com/maverick6130", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-github"], ["href", "mailto:daror6130@gmail.com", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-google"], ["href", "https://www.instagram.com/__da22__/", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-instagram"]],
+        consts: [[1, "content"], ["SideClass", "navbar navbar-expand-lg navbar-dark black", 3, "containerInside"], ["routerLink", "/", 1, "navbar-brand", "heading"], [1, "fas", "fa-home"], [1, "navbar-nav", "ml-auto"], ["routerLinkActive", "active", 1, "nav-item", 3, "routerLinkActiveOptions"], ["mdbWavesEffect", "", "routerLink", "/about", 1, "nav-link", "waves-light"], [1, "fas", "fa-portrait"], ["mdbWavesEffect", "", "routerLink", "/projects", 1, "nav-link", "waves-light"], [1, "fas", "fa-project-diagram"], ["mdbWavesEffect", "", "routerLink", "/teachings", 1, "nav-link", "waves-light"], [1, "fas", "fa-chalkboard-teacher"], ["mdbWavesEffect", "", "href", "./assets/190050034 .pdf", "target", "_blank", 1, "nav-link", "waves-light"], [1, "fas", "fa-file"], ["mdbWavesEffect", "", "routerLink", "/interests", 1, "nav-link", "waves-light"], [1, "far", "fa-thumbs-up"], [1, "bg-dark", "text-center", "text-white"], [1, "container", "p-4", "pb-0"], [1, "mb-4"], ["href", "https://www.linkedin.com/in/dhruv-arora-0931371ba/", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-linkedin-in"], ["href", "https://github.com/maverick6130", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-github"], ["href", "mailto:daror6130@gmail.com", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-google"], ["href", "https://www.instagram.com/__da22__/", "role", "button", 1, "btn", "btn-outline-light", "btn-floating", "m-1"], [1, "fab", "fa-instagram"]],
         template: function AppComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -775,7 +775,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "../../assets/carousel/", i_r1, ".jpeg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "./assets/carousel/", i_r1, ".jpeg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         }
       }
 

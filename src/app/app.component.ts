@@ -12,6 +12,6 @@ export class AppComponent {
   title = 'dhruv-arora';
 
   ngOnInit() {
-    this.ngxFavicon.setFavicon("../assets/dark.ico","../assets/light.ico");
+    this.ngxFavicon.setFavicon("./assets/dark.ico","./assets/light.ico");
   }
 }

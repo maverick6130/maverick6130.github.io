@@ -1,6 +1,7 @@
 # DhruvArora
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4. Anyone who wishes to is free to use the code as a template.
+NOTE : for using as a template, check the gh-pages branch! This branch is used for deploying to remote nginx server with no access to .conf file so the paths are messed up and index.html has some unnecessary code (workarounds for routing).
 
 ## Development server
 
