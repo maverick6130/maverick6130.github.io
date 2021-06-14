@@ -86,9 +86,9 @@
       _AboutComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: _AboutComponent,
         selectors: [["app-about"]],
-        decls: 54,
+        decls: 51,
         vars: 0,
-        consts: [[1, "mx-auto", 2, "padding-top", "25px"], [1, "text-black"], [1, "mb-3", "text-center", "heading"], [1, "mb-3", "text-center", "data"], ["href", "https://www.cse.iitb.ac.in/", "target", "_blank"], [2, "list-style-type", "none"], ["href", "https://north.choithramschool.com/", "target", "_blank"], ["href", "http://agrasenvidyalaya.edu.in/", "target", "_blank"], ["href", "https://ipho-unofficial.org/timeline/2019/individual", "target", "_blank"], ["href", "https://apho2019.asi.edu.au/2019-awards-list-2/", "target", "_blank"], ["href", "https://www.ibr.cs.tu-bs.de/users/fekete/", "target", "_blank"], ["href", "https://www.ieor.iitb.ac.in/mhanawal", "target", "_blank"]],
+        consts: [[1, "mx-auto", 2, "padding-top", "25px"], [1, "text-black"], [1, "mb-3", "text-center", "heading"], [1, "mb-3", "text-center", "data"], ["href", "https://www.cse.iitb.ac.in/", "target", "_blank"], ["href", "https://north.choithramschool.com/", "target", "_blank"], ["href", "http://agrasenvidyalaya.edu.in/", "target", "_blank"], ["href", "https://ipho-unofficial.org/timeline/2019/individual", "target", "_blank"], ["href", "https://apho2019.asi.edu.au/2019-awards-list-2/", "target", "_blank"], ["href", "https://www.ibr.cs.tu-bs.de/users/fekete/", "target", "_blank"], ["href", "https://www.ieor.iitb.ac.in/mhanawal", "target", "_blank"]],
         template: function AboutComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -101,7 +101,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h5", 3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " I am a third year undergraduate student in the department of ");
 
@@ -111,61 +111,57 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, ".");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " From theoretical algorithmic research and machine learning to web development, I enjoy everything this field has to offer ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " From theoretical algorithmic research and machine learning to web development, I enjoy everything this field has to offer ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "h1", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "h1", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "What do I know?");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "h4", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "ul", 5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "I've completed my marticulation from ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Choithram School North Campus");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "What do I know?");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " with a CGPA of 10");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h5", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " I've completed my marticulation from ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Choithram School North Campus");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " with a CGPA of 10");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "I've completed my intermediate studies from ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " I've completed my intermediate studies from ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Shri Agrasen Vidyalaya");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " with 98%");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Shri Agrasen Vidyalaya");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " with 98%");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "I've completed 2 years of undergraduate study from IIT Bombay and currently maintain a CPI of 9.85");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " I've completed 2 years of undergraduate study from IIT Bombay and currently maintain a CPI of 9.85");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " I'm a winner of 2 international medals in physics olympiads, see ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "here");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "I'm a winner of 2 international medals in physics olympiads, see ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " and ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 8);
 
@@ -173,77 +169,57 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " and ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " I have a decent understanding of Cryptography, Image Processing and Computer Graphics");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "here");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "h1", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "I have a decent understanding of Cryptography, Image Processing and Computer Graphics");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "What interests me Currently ?");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "h5", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " Open problems in Computational Geometry : I'm a research intern under professor ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " S\xE1ndor Fekete");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "h1", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "What interests me Currently ?");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "h4", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "ul", 5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Open problems in Computational Geometry : I'm a research intern under professor ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " HTTP Load Balancer in C++ : I'm trying to develop this as a project under professor ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "a", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, " S\xE1ndor Fekete");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Manjesh K. Hanawal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "HTTP Load Balancer in C++ : I'm trying to develop this as a project under professor ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Manjesh K. Hanawal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "h1", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Where to find me ?");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "h5", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h1", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, " In a non pandemic infested world, my address would have been Hostel 9, IIT Bombay");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Where to find me ?");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "h4", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, " In a non pandemic infested world, my address would have been Hostel 9, IIT Bombay");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, " Currently though, I reside in Indore and can be contacted online through the links below ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " Currently though, I reside in Indore and can be contacted online through the links below ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -840,7 +816,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h5", 3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "I hate being taken pictures of, so no photos of me (: but ...");
 
@@ -1204,7 +1180,7 @@
         selectors: [["app-projects"]],
         decls: 82,
         vars: 0,
-        consts: [[1, "db-3", "text-center", "heading", 2, "padding-top", "25px"], [1, "db-3", "text-center", "data"], [1, "container", 2, "padding-top", "25px"], [1, "row"], [1, "col-md-4", "mb-4", "d-flex", "align-items-stretch", "mx-auto"], [1, "card"], [1, "card-body"], [1, "card-title", "text-center"], ["href", "https://github.com/Anon258/HTTP-Load-Balancer", "target", "_blank"], [1, "card-text", "text-center"], ["href", "https://curl.se/libcurl/", "target", "_blank"], ["href", "https://github.com/etr/libhttpserver", "target", "_blank"], ["href", "https://github.com/orgs/wreSSLmaniacs/", "target", "_blank"], ["href", "https://github.com/wreSSLmaniacs/frontend", "target", "_blank"], ["href", "https://github.com/wreSSLmaniacs/backend", "target", "_blank"], ["href", "https://github.com/wreSSLmaniacs/IITB-proc", "target", "_blank"], ["href", "https://github.com/maverick6130/CS754-proj", "target", "_blank"], ["href", "https://www.cse.iitb.ac.in/~rajaryanagrawal", "target", "_blank"], ["href", "https://ieeexplore.ieee.org/document/4711713", "target", "_blank"], ["href", "https://github.com/maverick6130/mastermind", "target", "_blank"], ["href", "https://github.com/darora-22/cryptography-topic-repo", "target", "_blank"], ["href", "https://github.com/maverick6130/portfolio", "target", "_blank"]],
+        consts: [[1, "db-3", "text-center", "heading", 2, "padding-top", "25px"], [1, "db-3", "text-center", "data"], [1, "container", 2, "padding-top", "25px"], [1, "row"], [1, "col-md-4", "mb-4", "d-flex", "align-items-stretch", "mx-auto"], [1, "card"], [1, "card-body"], [1, "card-title", "text-center"], ["href", "https://github.com/Anon258/HTTP-Load-Balancer", "target", "_blank"], [1, "card-text", "text-center"], ["href", "https://curl.se/libcurl/", "target", "_blank"], ["href", "https://github.com/etr/libhttpserver", "target", "_blank"], ["href", "https://github.com/orgs/wreSSLmaniacs/", "target", "_blank"], ["href", "https://github.com/wreSSLmaniacs/frontend", "target", "_blank"], ["href", "https://github.com/wreSSLmaniacs/backend", "target", "_blank"], ["href", "https://github.com/wreSSLmaniacs/IITB-proc", "target", "_blank"], ["href", "https://github.com/maverick6130/CS754-proj", "target", "_blank"], ["href", "https://www.cse.iitb.ac.in/~rajaryanagrawal", "target", "_blank"], ["href", "https://ieeexplore.ieee.org/document/4711713", "target", "_blank"], ["href", "https://github.com/maverick6130/mastermind", "target", "_blank"], ["href", "https://github.com/darora-22/cryptography-topic-repo", "target", "_blank"], ["href", "https://github.com/maverick6130/maverick6130.github.io", "target", "_blank"]],
         template: function ProjectsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
@@ -1535,7 +1511,7 @@
         selectors: [["app-teachings"]],
         decls: 14,
         vars: 0,
-        consts: [[1, "mx-auto", 2, "padding-top", "25px"], [1, "text-black"], [1, "mb-3", "text-center", "heading"], [1, "mb-3", "text-center", "data"], [2, "list-style-type", "none"], ["href", "https://github.com/maverick6130/MA109"], [1, "mb-3", "text-center", "data", 2, "padding-top", "50px"]],
+        consts: [[1, "mx-auto", 2, "padding-top", "25px"], [1, "text-black"], [1, "mb-3", "text-center", "heading"], [1, "mb-3", "text-center", "data"], ["href", "https://github.com/maverick6130/MA109"], [1, "mb-3", "text-center", "data", 2, "padding-top", "50px"]],
         template: function TeachingsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1548,33 +1524,27 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h5", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " MA109 (2020-21) - Calculus : You can obtain the slides I used ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "MA109 (2020-21) - Calculus : You can obtain the slides I used ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "here");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "here");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "CS101 (offered under NPTEL, 2020-21) - An Introduction to Programming in C++");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " CS101 (offered under NPTEL, 2020-21) - An Introduction to Programming in C++");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h6", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h6", 5);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " I plan to keep updating this section as I offer my services for more courses in the future. ");
 
